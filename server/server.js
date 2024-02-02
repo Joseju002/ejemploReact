@@ -22,7 +22,7 @@ const path = require('path');
 //Añadimos en el package.json del SERVIDOR (en 'scripts'):
 //"build" : "cd client && npm install && run build"
 //De esta forma se compilará el REACT, así como generar HTML's por cada componente (como si no viniera de REACT)
-//Para subirlo a GitHub, quitalo
+//Para subirlo a GitHub, quitalo y en el build de render pones: "cd client && npm install && npm run build"
 
 //Desde local, podemos compilar REACT también con este comando:
 //npm run build
